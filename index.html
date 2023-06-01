@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Starbucks coffee shop</title>
+     <!-- Importing Bootstrap for CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Importing Font Awesome icons-->
+    <script src="https://kit.fontawesome.com/cedff5aa20.js" crossorigin="anonymous"></script>
+    <!-- Importing Swiper for js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <!--Importing Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+    <!--My css-->
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'> 
+    
+</head>
+<body>
+    <!-- Navbar start -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            <img src="images/logo.jpg" alt="coffee shop logo">
+        </a>
+        <!-- Links start -->
+        <div class="navbar_el">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#review">Reviews</a></li>
+            </ul>
+        </div>
+        <!-- Links end -->
+    </header>
+    <!-- Navbar end -->
+
+    <!-- Home section start -->
+    <section class="home" id="home">
+        <div class="slogan">
+            <h1>Brewed for those who love coffee.</h1>
+            <p>"A cup of coffe only lasts a moment, but it's that moment that makes your day better."</p>
+        </div>
+        <div class="home_img">
+            <img id="home_img" src="images/coffee_home.jpg" alt="home image">
+        </div>
+    </section>
+    <!-- Home section end -->
+
+    <!-- About section start -->
+    <section class="about" id="about">
+        <div class="about_img">
+            <img id="about_img" src="images/coffee_about.jpg" alt="about image">
+        </div>
+        <div class="about_txt">
+            <h2>Let's talk coffee</h2>
+            <p>Whether you're searching for something new to warm your mug, seeking the best brew method for your favorite blend or exploring our rarest offerings, you’ve come to the right place.</p>
+            <p>From K-Cup® Pods to Starbucks VIA® packets to our packaged coffee, we’ve compiled a wide selection of blends and beans to fill your cup.</p>
+            <button type="button" class="btn btn-outline-dark">
+                <a id="btn_about"href="products.html">Browse our coffees</a>
+            </button>
+        </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- Menu section start -->
+    <section class="menu" id="menu">
+        <h1>Our winter special menu</h1>
+        <div class="menu_container">
+            <div class="menu_box">
+                <div class="img">
+                    <img src="images/gal_img1.jpg" alt="coffee1">
+                 </div>
+                <div class="content">
+                    <h2>Pistachio Latte</h2>
+                    <p>Our rich signature espresso joins steamed milk, pistachio sauce and a brown-buttery topping.</p>
+                </div>
+            </div>
+             <div class="menu_box">
+                 <div class="img">
+                    <img src="images/gal_img2.jpg" alt="coffee1">
+                </div>
+                <div class="content">
+                    <h2>Pistachio Frappuccino® blended beverage</h2>
+                    <p>Frappuccino® Roast coffee and milk are blended with pistachio sauce. Finished with whipped cream and a brown-buttery topping.</p>
+                </div>
+            </div> 
+            <div class="menu_box">
+                <div class="img">
+                    <img src="images/gal_img3.jpg" alt="coffee1">
+                </div>
+                <div class="content">
+                    <h2>Iced Brown Sugar Oatmilk Shaken Espresso</h2>
+                    <p>Starbucks® Blonde Espresso gets hand-shaken with brown sugar-flavored syrup and cinnamon, and then finished with oatmilk.</p>
+                </div>
+            </div>
+            <div class="menu_box">
+                <div class="img">
+                    <img src="images/gal_img4.jpg" alt="coffee1">
+                </div>
+                <div class="content">
+                    <h2>Iced Chocolate Almondmilk Shaken Espresso</h2>
+                    <p>Starbucks® Blonde Espresso, cocoa and notes of malt are shaken together by hand, and then topped with almondmilk.</p>
+                </div>
+            </div>
+            <div class="menu_box">
+                <div class="img">
+                    <img src="images/gal_img5.jpg" alt="coffee1">
+                </div>
+                <div class="content">
+                    <h2>Protein-Forward Sandwiches</h2>
+                    <p>Power up with the Bacon, Gouda & Egg Sandwich or Double-Smoked Bacon, Cheddar & Egg Sandwich.</p>
+                </div>
+            </div>
+            <div class="menu_box">
+                <div class="img">
+                     <img src="images/gal_img5.jpg" alt="coffee1">
+                </div>
+                <div class="content">
+                    <h2>Egg Bites With Cage-Free Eggs</h2>
+                    <p>For vegetarian goodness anytime, choose our Kale & Mushroom Egg Bites or Egg White & Roasted Red Pepper Egg Bites.</p>
+                </div>
+            </div> 
+        </div>
+        <div class="container">
+            <a href="menu.html" id="menu_page" ><img src="images/menu_page.jpg" alt=""></a>
+            <p>This was just a short menu regarding the holiday specials we have to offer. To view our full menu click on the picture.</p> 
+        </div>
+    </section>
+    <!-- Menu section end -->
+
+    <!--Start order section-->
+    <section class="order" id="order">
+        <div class="order_content">
+            <h1>Too cold outside to go and get that favorite cup of coffe?<br> No worries, we're just a click away!</h1>
+            <p>With the Starbucks® app being available via GooglePlay and the App Store, we've never been closer!</p>
+        </div>
+        <div class="order_container">
+            <div class="order_box">
+                    <img src="images/order_appstore.jpg" alt="">
+                    <p>Starbucks® app for iPhone®</p>
+                    <button type="button" class="btn btn-outline-dark">
+                        <a id="btn_about"href="https://apps.apple.com/us/app/starbucks/id331177714?_branch_match_id=840032794869065322&utm_source=Web&utm_medium=marketing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXLy5JLEoqTc4u1kssKNDLyczL1vc0LM4r8Q%2B2rDIFAPH2J38lAAAA" target="_blank">Download at the App store</a>
+                    </button>
+            </div>
+            <div class="order_box">
+                <div class="order_box">
+                    <img src="images/order_googleplay.jpg" alt="">
+                    <p>Starbucks® app for Android™</p>
+                    <button type="button" class="btn btn-outline-dark">
+                        <a id="btn_about"href="https://play.google.com/store/apps/details?id=com.starbucks.mobilecard&hl=en&_branch_match_id=840032794869065322&utm_source=Web&utm_medium=marketing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXLy5JLEoqTc4u1kssKNDLyczL1i8Pr4qKsgywrDIFAPn4hjwlAAAA" target="_blank">Download on the GooglePlay store</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="booking">
+            <h1>In case the cold isn't getting to you and you would like to visit us in person, feel free to book a table on the following link:</h1>
+            <a href="booking.html">Book your table today!</a>
+        </div>  
+    </section>
+    <!--End order section-->
+
+    <!--Start review section-->
+    <section class="review" id="review">
+        <h1>What people have to say</h1>
+        <div class="swiper review_slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide review_box">
+                    <i class="fa fa-quote-left"></i>   
+                    <i class="fa fa-quote-right"></i>    
+                   <img src="images/review1.jpg" alt="">
+                   <div class="content">
+                         <h3>John Doe</h3>
+                        <p>The service is great!</p>
+                    </div>    
+                   <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>                    
+                        <i class="fa fa-star"></i>  
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide review_box">
+                    <i class="fa fa-quote-left"></i>   
+                    <i class="fa fa-quote-right"></i>    
+                   <img src="images/review2.jpg" alt="">
+                   <div class="content">
+                         <h3>John Doe</h3>
+                        <p>Very polite!</p>
+                    </div>    
+                   <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>                    
+                        <i class="fa fa-star"></i>  
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide review_box">
+                    <i class="fa fa-quote-left"></i>   
+                    <i class="fa fa-quote-right"></i>    
+                   <img src="images/review3.jpg" alt="">
+                   <div class="content">
+                         <h3>John Doe</h3>
+                        <p>Best coffee in town!</p>
+                    </div>    
+                   <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>                    
+                        <i class="fa fa-star"></i>  
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="swiper-slide review_box">
+                    <i class="fa fa-quote-left"></i>   
+                    <i class="fa fa-quote-right"></i>    
+                   <img src="images/review4.jpg" alt="">
+                   <div class="content">
+                         <h3>John Doe</h3>
+                        <p>Very satisfied.</p>
+                    </div>    
+                   <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>                    
+                        <i class="fa fa-star"></i>  
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="comments">
+            <h1>Feel free to help us improve!</h1>
+            <form action="" method="get" class="form" id="form">
+                <legend>Enter your name:</legend>
+                <input type="text" class="box" placeholder="enter your name" name="name1" id="name1" value=" "><br>
+                <legend>Enter your email:</legend>
+                <input type="email" class="box"  placeholder="enter your email" name="email1" id="email1" value=" "><br>
+                <legend>Enter your comment:</legend>
+                <label for="text"></label>
+                <textarea name="comment1" id="comment1" cols="40" rows="2" value=" "></textarea>
+                <button id="btn"type="submit" value="submit" class="btn btn-outline-dark btn_reserve" onclick="validation1()" >
+                    <a id="btn_about"href="" >Send</a>
+                </button>
+            </form>
+        </div>
+    </section>
+    <!--End review section-->
+
+    <!--Start footer-->
+    <section class="footer">
+        <div class="footer_container">
+            <div class="footer_box">
+                <h3>Our brances:</h3>
+                <a  href="#"  ><i id="icon"  class="fa fa-arrow-right "onmouseover="hover()"></i>United States</a>
+                <a href="#" ><i id="icon"  class="fa fa-arrow-right "onmouseover="hover()"></i>Canada</a>
+                <a href="#"><i id="icon" class="fa fa-arrow-right" onmouseover="hover()"></i>South Korea </a>
+                <a href="#"><i id="icon" class="fa fa-arrow-right" onmouseover="hover()"></i>Taiwan	</a>
+                <a href="#"><i id="icon" class="fa fa-arrow-right" onmouseover="hover()"></i>Japan</a> 
+            </div>
+            <div class="footer_box">
+                <h3>Quick links</h3>
+                    <a href="#home"  ><i id="icon" class="fa fa-arrow-right" onmouseover="hover()" ></i> Home </a>
+                    <a href="#about"><i id="icon" class="fa fa-arrow-right" onmouseover="hover()"></i>About</a>
+                    <a href="#menu"><i id="icon" class="fa fa-arrow-right" onmouseover="hover()"></i>Menu </a>
+                    <a href="#order"><i id="icon" class="fa fa-arrow-right" onmouseover="hover()"></i>Order	</a>
+                    <a href="#review"><i id="icon" class="fa fa-arrow-right" onmouseover="hover()"></i>Reviews</a> 
+            </div>
+            <div class="footer_box">
+                <h3>Contact info</h3>
+                <a href="https://www.facebook.com/Starbucks/" target="_blank"><i id="icon" class="fa fa-facebook" onmouseover="hover()"></i>Facebook</a>
+                <a href="https://www.instagram.com/starbucks/" target="_blank"><i id="icon" class="fa fa-instagram" onmouseover="hover()"></i>Instagram</a>
+                <a href="https://twitter.com/starbucks/" target="_blank"><i id="icon" class="fa fa-twitter" onmouseover="hover()"></i> Twitter</a>
+                <a href="https://www.pinterest.com/starbucks/_created/" target="_blank"><i id="icon" class="fa fa-pinterest" onmouseover="hover()"></i>Pinterest</a>
+                <a href="https://www.youtube.com/starbucks" target="_blank"><i id="icon" class="fa fa-youtube" onmouseover="hover()"></i>Youtube</a> 
+            </div>
+        </div>
+    </section>
+    <!--End footer-->
+    <!--Including swiper for js-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+     <!--Including jquery for js-->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+     <!--My js-->
+    <script src=/main.js></script>
+    
+</body>
+</html>

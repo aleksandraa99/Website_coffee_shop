@@ -1,0 +1,184 @@
+/*Start defining color variables*/
+:root{
+    --text-color5: #451a2b;
+    --text-color7:#c49d84;
+    --bg-color2:#8da0a4;
+    --bg-color3:rgb(211, 203, 203);
+    --bg-color4:rgb(241, 236, 236);
+}
+/*End defining color variables*/
+
+/* Start styling products section menu */
+
+.header{
+    width: 100%;
+    height: fit-content;
+    background-color:var(--bg-color3);  
+}
+.header img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    margin: 10px 20px 0 20px;
+}
+.header h2{
+    text-transform: capitalize;
+    position: absolute;
+    font-size: 1.2rem;
+    top: 40px;
+    left: 140px;
+}
+.products{
+    width: 100%;
+   background: url(../images/bg_about.jpg);
+   background-repeat: repeat;
+   background-size: cover;
+   background-position: center;
+}
+.products_container{
+    background: url(../images/bg_about.jpg);
+   background-repeat: repeat;
+   background-size: cover;
+   background-position: center;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    gap:4rem;
+   padding: 50px 0;
+}
+div.products_box{
+    height: 400px;
+    width:300px;
+    background-color:whitesmoke;
+    border-radius: 30px;
+}
+.products_box .img img{
+    height: 250px;
+    width: 100%;
+    margin-top: -55px;
+    border-radius: 30px;
+}
+.content h2{
+    color:var(--text-color5);
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.content p{
+    text-align: center;
+    padding: 0 5px ;
+    font-size: 1.1rem;
+    color:var(--text-color7);
+}
+/* End styling products section menu */
+
+/* Start styling main menu section */
+.main_menu_container{
+    background: url(../images/bg_about.jpg);
+   background-repeat: repeat;
+   background-size: cover;
+   background-position: center;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    gap:4rem;
+   padding: 50px 0;
+}
+.main_menu_container h1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    font-size: 2rem;
+}
+.beverages{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+    gap:4rem;
+}
+.main_menu_box{
+    height: 400px;
+    width:300px;
+    background-color:whitesmoke;
+    border-radius: 30px;
+}
+.main_menu_img img{
+    height: 270px;
+    width: 100%;
+    margin-top: -40px;
+    border-radius: 30px;
+}
+.main_menu_content h2{
+    color:var(--text-color5);
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.main_menu_content p{
+    text-align: center;
+    padding: 0 5px ;
+    font-size: 1.1rem;
+    color:var(--text-color7);
+}
+/* Main menu section end*/
+
+/* Start  styling booking section*/
+.booking{
+    border-spacing: 15%;
+    width: 100%;
+   background: url(../images/bg_about.jpg);
+   background-repeat: repeat;
+   background-size: cover;
+   background-position: center;
+}
+.reserve{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reserve h1{
+    font-size: 2rem;
+    margin: 2rem;
+    letter-spacing: 2.5px;
+    text-transform: capitalize;
+}
+.reserve form{
+    margin: 2rem 2rem 2rem 3rem;
+    max-width: 40rem;
+    border-radius: 50px;
+    padding: 2rem;
+    border-style: groove;
+    border-width: 2rem;
+}
+.reserve form .box{
+    margin: 20px 0;
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+}
+.reserve form textarea{
+    height:10rem;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    text-align: start;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+.btn_reserve{
+    margin: 0 90px;
+     width: 60%;
+     border-radius: 50px;
+     transition: all .2s ease;
+     font-weight: 600;
+}
+#btn_about{
+    text-decoration: none;
+    color: var(  --bg-color2);
+}
+/* End  styling booking section*/

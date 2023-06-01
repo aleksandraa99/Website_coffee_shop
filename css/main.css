@@ -1,0 +1,446 @@
+/* Start definig variables for colors*/
+:root{
+    --text-color1:#fff6f6;
+    --text-color2: #1e343f;
+    --text-color3:rgb(141, 189, 45);
+    --text-color4:#1f2e55;
+    --text-color5: #451a2b;
+    --text-color6:#c29f8a;
+    --bg-color1: #9F807D;
+    --bg-color2:#8da0a4;
+}
+/* End definig variables for colors*/
+
+/*Start styling navbar*/
+section{
+    padding: 70px 100px;
+}
+img{
+    width: 100%;
+}
+body{
+    color:whitesmoke;
+}
+/*Start styling navbar*/
+header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center ;
+    transition: 0.5s linear;
+    background-color: var(--bg-color1);
+}
+.logo img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    margin-top: -10px ;
+    margin-left: -25px;
+}
+.navbar{
+    position: sticky;
+    display: flex;
+    justify-content: start;
+}
+.navbar_el ul{
+    list-style: none;
+    display: flex;
+}
+.navbar a{  
+    color: var(--text-color1);
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-shadow: whitesmoke;
+    font-weight: 500 ;
+    padding: 8px 45px;  
+    text-decoration: none;
+}
+.navbar_el a:hover{
+    background-color: var(--bg-color2);
+    border-radius: 2rem;
+    transition: 0.5s linear;
+}
+/*End styling navbar*/
+
+/* Start styling home section */
+.home{
+    width: 100%;
+    padding-top: 100px;
+    min-height: 50vh;
+    background: url(../images/bg_home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,auto));
+    align-items: center;
+    gap: 1.5rem;
+}
+.slogan h1{
+     font-family: 'Lora', serif;;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    letter-spacing: 1px; 
+}
+.slogan p{
+    /* font-family: 'Lora', serif; */
+    padding:50px 0;
+    font-size: 1.7rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+#home_img{
+    border-radius: 40px;  
+}
+/* End styling home section */
+
+/* Start styling about section */
+.about{
+    width: 100%;
+    min-height: 100vh;
+    background: url(../images/bg_about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,auto));
+    align-items: center;
+    gap: 1.5rem;
+    padding-left: 30px;
+    padding-top: 100px;
+}
+#about_img{
+    border-radius: 40px;
+}
+.about_txt{
+    color: var(--text-color2);
+    padding: 10px 10px;
+}
+.about_txt h2{
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 2.3rem;
+    text-transform: capitalize;
+    letter-spacing: 1px; 
+}
+.about_txt p{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    letter-spacing: 1px; 
+}
+#btn_about{
+    text-decoration: none;
+    color: var(--bg-color2);
+}
+/* End styling home section */
+
+/* Start styling menu section */
+.menu{
+   width: 100%;
+   padding-top: 120px;
+   background: url(../images/bg_menu.jpg);
+   background-repeat: repeat;
+   background-size: cover;
+   background-position: center;
+}
+ .menu_container{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     gap:4rem;
+    padding: 50px 0;
+} 
+div.menu_box{
+    height: 550px;
+    width:300px;
+    background-color:whitesmoke;
+    border-radius: 30px;
+}
+.menu h1{
+    font-family: 'Lora', serif;
+    color:var(--header-color);
+    text-align: center;
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    letter-spacing: 1px; 
+    color:var(--text-color1);
+}
+.content p{
+    text-align: center;
+    padding: 20px 15px;
+    font-size: 1.1rem;
+    color:var(--text-color6);
+}
+.content h2{
+    font-family: 'Lora', serif;
+    color:var(--text-color5);
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+ .menu_box .img img{
+    height: auto;
+    width: 100%;
+    border-radius: 30px;
+}
+.container{
+    background-color: whitesmoke;
+    background-size: cover;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    height: 300px;
+    width: 100%;
+ ;
+}
+#menu_page img{
+    border-radius: 30px;
+    width: 300px;
+    height: 295px;
+   margin-left: -10px;
+}
+.container p{
+    text-align: center;
+    padding: 20px 15px;
+    font-size: 1.6rem;
+    color:var(--text-color6);
+}
+/* End styling menu section */
+
+/* Start styling order section */
+.order{
+    width: 100%;
+    padding-top: 120px;
+    background: url(../images/bg_order.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .order_content h1{
+    font-family: 'Lora', serif;
+    color: var(--text-color2);
+    font-size: 2rem;
+ }
+ .order_content p{
+    color: var(--text-color2);
+     font-size: 1.4rem;
+ }
+
+  .order_container{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+      gap:2rem;
+     padding: 50px 0;
+ } 
+ .order_box {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    border-radius: 30px;
+    flex-direction: column;
+   justify-content: center;
+   background-color: whitesmoke;
+
+ }
+ .order_box img{    
+    margin-top: -20px;
+    border-radius: 60px;
+ }
+ .order_box p{
+     font-size: 1.5rem;
+     color:var(--text-color2);
+     text-align: center ;
+     text-transform: capitalize;
+ }
+ .order_box button{
+     margin: 0 90px;
+     width: 60%;
+     border-radius: 50px;
+     transition: all .2s ease;
+     font-weight: 600;
+ }
+ .booking h1{
+    font-family: 'Lora', serif;
+     font-size: 1.6rem;
+     color: var(--text-color2);
+ }
+ .booking a{
+     font-size: 1.4rem;
+     color: var(--text-color2);;
+ }
+
+/* End styling order section */
+
+
+/* Start styling review section */
+.review{
+    /* width: 100%; */
+    padding-top: 120px;
+    background: url(../images/bg_review.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+.review h1{
+    font-family: 'Lora', serif;
+    font-size: 3rem;
+    font-weight: 750;
+    text-align: center;
+    color: black;
+}
+ .review_slider{
+    padding: 7rem 0;
+}
+
+ .review_box{
+     margin-top: -80px;
+     height: 80vh;
+    border: 20px var(--text-color5) groove;
+    text-align: center;
+    z-index: 0;
+    position: relative;
+    padding:1rem;
+}
+.review_box .fa-quote-left{
+    position: absolute;
+    top: 2rem; left: 2.5rem;
+    z-index: -1;
+    font-size: 3.5rem;
+    color: var(--text-color2);
+}
+.review_box .fa-quote-right{
+    position: absolute;
+    bottom: 2rem; right: 2.5rem;
+    z-index: -1;
+    font-size: 3.5rem;
+    color: var(--text-color2);
+}
+.review_box:hover .fa-quote-left{
+    top: -4rem;
+    color: var(--text-color1);
+}
+.review_box:hover .fa-quote-right{
+    bottom:-4rem;
+    color: var(--text-color1);
+}
+.review_box img{
+    height: 15rem;
+    width: 15rem;
+    border-radius:50% ;
+    margin-bottom: .7rem;
+}
+.review_box .stars{
+    padding: .5rem 0;
+}
+.review_box .stars i{
+    font-size: 1.7rem;
+    color: var(--text-color5);
+}
+.review_box .content p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+    color: black;
+    line-height: 1.3rem;
+
+}
+.review_box .content h3{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: black;
+}
+.review .comments{
+    display: flex;
+    color: var(--text-color2);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comments h1{
+        font-size: 2rem;
+        margin: 1rem;
+        letter-spacing: 2.5px;
+        text-transform: capitalize;
+    }
+.comments form{
+    margin: 2rem 2rem 2rem 3rem;
+    max-width: 40rem;
+    border-radius: 50px;
+    padding: 2rem;
+    border-style: groove;
+    border-width: 2rem;
+}
+.comments form .box{
+    margin: 20px 0;
+    width: 100%;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+}
+.comments form textarea{
+    height:10rem;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    text-align: start;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+.btn_reserve{
+    margin: 0 70px;
+     width: 50%;
+     border-radius: 50px;
+     transition: all .2s ease;
+     font-weight: 600;
+}
+#btn_about{
+    text-decoration: none;
+    color: var(--text-color4);
+}
+
+/* End styling review section */
+
+/*Start styling footer section*/
+.footer{
+    width: 100%;
+    height:fit-content;
+    background-color: url(../images/bg_footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem,1fr));
+    gap:1.5rem;
+}
+.footer_box h3{
+    font-size: 1.8rem;
+    color: var(--bg-color1);
+    padding: 1rem 0;
+}
+.footer_box a{
+    
+    text-decoration: none;
+    display: block;
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+    color:var(--bg-color2);
+}
+.footer_box i{
+    margin-right: 20px;
+}
+
+/*End styling footer section*/
